@@ -1,0 +1,30 @@
+<section id="contact" class="pt-8 pb-20 max-w-4xl mx-auto px-6 transition-colors duration-300">
+  
+  <div class="mb-12 text-left">
+    <h2 class="text-3xl font-bold tracking-tighter text-gray-900 dark:text-white uppercase transition-colors">
+      {{ content?.title }}
+    </h2>
+    <div class="h-1 w-12 bg-blue-600 mt-2 rounded-full"></div> </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <a href="mailto:skr.syfira@gmail.com" 
+       class="group p-6 rounded-2xl bg-white dark:bg-gray-800/40 border border-gray-100 dark:border-gray-700 hover:border-blue-500 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+      <p class="text-xs font-bold text-blue-600 dark:text-blue-400 uppercase mb-2 tracking-wider">
+        {{ content?.emailLabel }}
+      </p>
+      <p class="text-sm text-gray-700 dark:text-gray-300 break-all font-medium">
+        skr.syfira@gmail.com
+      </p>
+    </a>
+
+    <a href="https://wa.me/6287848894145" target="_blank" class="group p-6 rounded-2xl bg-white dark:bg-gray-800/40 border border-gray-100 dark:border-gray-700 hover:border-green-500 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+      <p class="text-xs font-bold text-green-600 dark:text-green-400 uppercase mb-2 tracking-wider">{{ content?.whatsappLabel }}</p>
+      <p class="text-sm text-gray-700 dark:text-gray-300 font-medium">0878-4889-4145</p>
+    </a>
+
+    <a href="https://linkedin.com/in/sekar-syafira-81b616203" target="_blank" class="group p-6 rounded-2xl bg-white dark:bg-gray-800/40 border border-gray-100 dark:border-gray-700 hover:border-blue-700 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+      <p class="text-xs font-bold text-[#0077b5] dark:text-blue-300 uppercase mb-2 tracking-wider">{{ content?.linkedinLabel }}</p>
+      <p class="text-sm text-gray-700 dark:text-gray-300 font-medium">Sekar Syafira</p>
+    </a>
+  </div>
+</section>

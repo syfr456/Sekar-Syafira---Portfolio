@@ -1,0 +1,36 @@
+<div
+  class="p-6 h-full flex flex-col justify-between bg-white dark:bg-gray-800/40 border border-gray-100 dark:border-gray-700 rounded-2xl transition-all duration-300 hover:shadow-xl group"
+>
+  <div>
+    <h3
+      class="font-bold text-xl text-gray-900 dark:text-white group-hover:text-blue-600 transition-colors"
+    >
+      {{ project.name }}
+    </h3>
+    <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">
+      {{ project.desc }}
+    </p>
+    <div class="mt-4 flex flex-wrap gap-2">
+      <span
+        *ngFor="let t of project.tech"
+        class="px-2.5 py-1 text-[10px] font-bold tracking-wider uppercase rounded-md bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-300 border border-blue-100/50 dark:border-blue-800/50 transition-colors duration-300"
+      >
+        {{ t }}
+      </span>
+    </div>
+  </div>
+
+  <div class="mt-6 flex items-center space-x-3">
+    <button
+      class="flex-1 px-4 py-2 bg-blue-600 text-white text-xs font-bold rounded-lg transition-all active:scale-95"
+    >
+      {{ labels.demoLabel || 'Live Demo' }}
+    </button>
+
+    <button
+      class="flex-1 px-4 py-2 border border-gray-200 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-xs font-bold rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-all"
+    >
+      {{ labels.codeLabel || 'View Code' }}
+    </button>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<section id="projects" class="pt-16 pb-8 max-w-4xl mx-auto px-6 transition-colors duration-300">
+  <div class="mb-10">
+    <h2 class="text-3xl font-bold tracking-tighter text-gray-900 dark:text-white uppercase">
+      {{ content.title }}
+    </h2>
+    <div class="h-1 w-12 bg-blue-600 mt-2 rounded-full"></div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <app-project-card
+      *ngFor="let project of content.items"
+      [project]="project">
+    </app-project-card>
+  </div>
+</section>
