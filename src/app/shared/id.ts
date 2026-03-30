@@ -38,6 +38,7 @@ export const ID: TranslationModel = {
   },
   projects: {
   title: 'PROYEK PILIHAN',
+  desc:'Berikut adalah beberapa proyek yang telah saya kerjakan, menampilkan berbagai teknologi dan solusi yang saya gunakan untuk memenuhi kebutuhan klien.',
   demoLabel: 'Demo Langsung',
   codeLabel: 'Lihat Kode',
   privateLabel: 'Kode Privat',
@@ -84,13 +85,13 @@ export const ID: TranslationModel = {
     items: [
       {
         role: 'Front-End Developer',
-        company: 'PT. VADS Indonesia',
+        company: 'PT. VADS Indonesia (PT Avrist Assurance)',
         period: 'Mei 2025 - Sekarang',
         desc: 'Membangun tampilan aplikasi web sesuai kebutuhan klien dan menangani bug untuk memastikan performa aplikasi yang lancar.',
       },
       {
         role: 'Front-End Developer',
-        company: 'PT Intercome Digital Indonesia (Avrist Assurance)',
+        company: 'PT Intercome Digital Indonesia (PT Avrist Assurance)',
         period: 'Mei 2023 - April 2025',
         desc: 'Mengembangkan front-end aplikasi internal dan melakukan debugging efektif untuk meningkatkan kualitas aplikasi.',
       },

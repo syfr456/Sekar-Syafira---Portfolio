@@ -36,6 +36,7 @@ export const EN: TranslationModel = {
   },
   projects: {
     title: 'PROJECT SHOWCASE',
+    desc:'Here are some of the projects I have worked on, showcasing various technologies and solutions I have implemented to meet client needs.',
     demoLabel: 'Live Demo',
     codeLabel: 'View Code',
     privateLabel: 'Private Code',
@@ -82,13 +83,13 @@ export const EN: TranslationModel = {
     items: [
       {
         role: 'Front-End Developer',
-        company: 'PT. VADS Indonesia',
+        company: 'PT. VADS Indonesia (PT Avrist Assurance)',
         period: 'May 2025 - Present',
         desc: 'Building web application interfaces based on client needs and handling bugs to ensure smooth application performance.',
       },
       {
         role: 'Front-End Developer',
-        company: 'PT Intercome Digital Indonesia (Avrist Assurance)',
+        company: 'PT Intercome Digital Indonesia (PT Avrist Assurance)',
         period: 'May 2023 - April 2025',
         desc: 'Developing internal application front-ends and performing effective debugging to improve application quality.',
       },

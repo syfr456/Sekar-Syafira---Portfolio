@@ -4,12 +4,26 @@
       {{ content.title }}
     </h2>
     <div class="h-1 w-12 bg-blue-600 mt-2 rounded-full"></div>
+     <p class="mt-4 text-gray-600 dark:text-gray-400">
+     {{ content.desc }}
+    </p>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <app-project-card
-      *ngFor="let project of content.items"
-      [project]="project">
-    </app-project-card>
+  <div class="relative py-10">
+    <div
+      class="absolute top-1/2 left-1/4 -translate-y-1/2 w-64 h-64 bg-blue-400/10 blur-[100px] rounded-full"
+    ></div>
+    <div
+      class="absolute bottom-0 right-1/4 w-48 h-48 bg-purple-400/10 blur-[80px] rounded-full"
+    ></div>
+    <swiper-container
+      class="mySwiper"
+      init="false"
+      style="--swiper-navigation-color: #3b82f6; --swiper-pagination-color: #3b82f6"
+    >
+      <swiper-slide *ngFor="let project of content.items" class="pb-12">
+        <app-project-card [project]="project"></app-project-card>
+      </swiper-slide>
+    </swiper-container>
   </div>
 </section>

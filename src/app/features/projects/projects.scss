@@ -1,0 +1,28 @@
+swiper-container {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+swiper-slide {
+  width: 320px; // Sesuaikan lebar kartu
+  height: auto;
+  transition: transform 0.4s ease-in-out, opacity 0.4s;
+  opacity: 0.4; /* Slide samping dibuat agak transparan */
+
+  &.swiper-slide-active {
+    opacity: 1; /* Slide tengah fokus total */
+    transform: scale(1.05); /* Sedikit diperbesar */
+  }
+}
+
+/* Mempercantik tombol navigasi */
+::ng-deep {
+  .swiper-button-next, .swiper-button-prev {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    after { font-size: 1.2rem; font-weight: bold; }
+  }
+}

@@ -30,6 +30,7 @@ export interface TranslationModel {
   };
   projects: {
     title: string;
+    desc: string;
     demoLabel: string;
     codeLabel: string;
     privateLabel: string;
