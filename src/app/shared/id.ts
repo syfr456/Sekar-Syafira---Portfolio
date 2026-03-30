@@ -46,7 +46,7 @@ export const ID: TranslationModel = {
     { 
       name: 'BSKB Mobile (Bank Sampah)', 
       desc: 'Aplikasi pengelolaan sampah berbasis mobile dan web yang membantu operasional Bank Sampah Kuantan Bersih.', 
-      tech: ['Ionic', 'Angular', 'Firebase'],
+      tech: ['Ionic', 'Angular', 'Bootstrap', 'Firebase'],
       link: 'https://bskbmobile.web.app',
       github: 'https://github.com/syfr456/bskb-mobile'
     },
@@ -60,7 +60,7 @@ export const ID: TranslationModel = {
     { 
       name: 'Opsi Consulting', 
       desc: 'Landing page profesional untuk jasa konsultan pajak UMKM dan perorangan dengan fitur kalkulator simulasi pajak.', 
-      tech: ['Angular', 'Tailwind CSS', 'TypeScript'],
+      tech: ['Angular', 'Bootstrap', 'TypeScript'],
       link: 'https://www.opsiconsulting.id/',
       github: null 
     },

@@ -27,7 +27,11 @@ export const EN: TranslationModel = {
       'JavaScript',
       'Tailwind',
       'HTML/CSS',
+      'Material UI',
+      'PrimeNG',
       'Bootstrap',
+      'Docker',
+      'Next.js',
       'DevExtreme',
       'Ionic',
       'Git',
@@ -43,8 +47,8 @@ export const EN: TranslationModel = {
     items: [
       {
         name: 'BSKB Mobile (Waste Bank)',
-        desc: 'A waste management application for mobile and web that supports the operations of Bank Sampah Kuantan Bersih[cite: 1, 32].',
-        tech: ['Ionic', 'Angular', 'Firebase'],
+        desc: 'A waste management application for mobile and web that supports the operations of Bank Sampah Kuantan Bersih.',
+        tech: ['Ionic', 'Angular', 'Bootstrap', 'Firebase'],
         link: 'https://bskbmobile.web.app',
         github: 'https://github.com/syfr456/bskb-mobile',
       },
@@ -58,7 +62,7 @@ export const EN: TranslationModel = {
       {
         name: 'Opsi Consulting',
         desc: 'A professional landing page for SME and individual tax consultancy services, featuring a tax simulation calculator.',
-        tech: ['Angular', 'Tailwind CSS', 'TypeScript'],
+        tech: ['Angular', 'Bootstrap', 'TypeScript'],
         link: 'https://www.opsiconsulting.id/',
         github: null,
       },
