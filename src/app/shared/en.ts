@@ -1,4 +1,4 @@
-import { TranslationModel } from "./translation.model";
+import { TranslationModel } from './translation.model';
 
 export const EN: TranslationModel = {
   nav: {
@@ -9,7 +9,7 @@ export const EN: TranslationModel = {
     theme: 'Theme',
     dark: 'Dark',
     light: 'Light',
-    language: 'Language'
+    language: 'Language',
   },
   hero: {
     greeting: 'HELLO, I AM',
@@ -17,64 +17,100 @@ export const EN: TranslationModel = {
     highlight: 'interactive & efficient',
     with: 'web applications using Angular and TypeScript.',
     cta: 'VIEW MY PROJECTS',
-    resumeLabel: 'RESUME'
+    resumeLabel: 'RESUME',
   },
   stack: {
     title: 'TECH STACK',
-    items: ['Angular', 'TypeScript', 'JavaScript', 'Tailwind', 'HTML/CSS', 'Bootstrap', 'DevExtreme', 'Ionic', 'Git', 'Figma']
+    items: [
+      'Angular',
+      'TypeScript',
+      'JavaScript',
+      'Tailwind',
+      'HTML/CSS',
+      'Bootstrap',
+      'DevExtreme',
+      'Ionic',
+      'Git',
+      'Figma',
+    ],
   },
   projects: {
     title: 'PROJECT SHOWCASE',
     demoLabel: 'Live Demo',
     codeLabel: 'View Code',
+    privateLabel: 'Private Code',
     items: [
-      { 
-        name: 'ERP Model Website', 
-        desc: 'Contributed to the development of ERP model websites and UI/UX optimization.', 
-        tech: ['HTML', 'CSS', 'JavaScript'] 
+      {
+        name: 'BSKB Mobile (Waste Bank)',
+        desc: 'A waste management application for mobile and web that supports the operations of Bank Sampah Kuantan Bersih[cite: 1, 32].',
+        tech: ['Ionic', 'Angular', 'Firebase'],
+        link: 'https://bskbmobile.web.app',
+        github: 'https://github.com/syfr456/bskb-mobile',
       },
-      { 
-        name: 'Waste Bank Customer App', 
-        desc: 'Android-based application for bank waste management using Iterative Incremental method.', 
-        tech: ['Android', 'Java/Kotlin'] 
-      }
-    ]
+      {
+        name: 'Mochi - Delicious and Soft Snacks',
+        desc: 'A responsive landing page for mochi snack products, focusing on an engaging user interface and seamless user experience.',
+        tech: ['HTML', 'CSS', 'JavaScript'],
+        link: 'https://landingpage-mochi.vercel.app/',
+        github: 'https://github.com/syfr456/Landingpage-Mochi',
+      },
+      {
+        name: 'Opsi Consulting',
+        desc: 'A professional landing page for SME and individual tax consultancy services, featuring a tax simulation calculator.',
+        tech: ['Angular', 'Tailwind CSS', 'TypeScript'],
+        link: 'https://www.opsiconsulting.id/',
+        github: null,
+      },
+      {
+        name: 'Sinkronik ID',
+        desc: 'A digital marketing and branding solution platform to help businesses increase scalability through digital strategies.',
+        tech: ['Angular', 'TypeScript', 'SCSS'],
+        link: 'https://sinkronik.id',
+        github: null,
+      },
+      {
+        name: 'Film Achievement Management',
+        desc: 'A film archive management system for the Ministry of Culture of the Republic of Indonesia for structured data archiving.',
+        tech: ['Angular', 'PrimeNG', 'RxJS'],
+        link: 'https://arsipfilm.co.id',
+        github: null,
+      },
+    ],
   },
   experience: {
     title: 'WORK EXPERIENCE',
     items: [
-      { 
-        role: 'Front-End Developer', 
-        company: 'PT. VADS Indonesia', 
+      {
+        role: 'Front-End Developer',
+        company: 'PT. VADS Indonesia',
         period: 'May 2025 - Present',
-        desc: 'Building web application interfaces based on client needs and handling bugs to ensure smooth application performance.'
+        desc: 'Building web application interfaces based on client needs and handling bugs to ensure smooth application performance.',
       },
-      { 
-        role: 'Front-End Developer', 
-        company: 'PT Intercome Digital Indonesia (Avrist Assurance)', 
+      {
+        role: 'Front-End Developer',
+        company: 'PT Intercome Digital Indonesia (Avrist Assurance)',
         period: 'May 2023 - April 2025',
-        desc: 'Developing internal application front-ends and performing effective debugging to improve application quality.'
+        desc: 'Developing internal application front-ends and performing effective debugging to improve application quality.',
       },
-      { 
-        role: 'Mobile & Cloud Development (Intern)', 
-        company: 'Nongsa Digital Park', 
+      {
+        role: 'Mobile & Cloud Development (Intern)',
+        company: 'Nongsa Digital Park',
         period: 'Sep 2021 - Jan 2022',
-        desc: 'Collaborating in Agile/Scrum teams to build 3 different Android applications.'
+        desc: 'Collaborating in Agile/Scrum teams to build 3 different Android applications.',
       },
-      { 
-        role: 'Front-End Developer (Intern)', 
+      {
+        role: 'Front-End Developer (Intern)',
         company: 'PT Inforsys Indonesia',
         period: 'Mar 2021 - Aug 2021',
-        desc: 'Contributed to the development of ERP model websites and UI/UX optimization to enhance application functionality.' 
-      }
-
-    ]
+        desc: 'Contributed to the development of ERP model websites and UI/UX optimization to enhance application functionality.',
+      },
+    ],
   },
   contact: {
     title: 'GET IN TOUCH',
     emailLabel: 'Official Email',
     whatsappLabel: 'WhatsApp',
-    linkedinLabel: 'LinkedIn'
+    linkedinLabel: 'LinkedIn',
   },
   footer: { builtWith: 'Built with' },
 };

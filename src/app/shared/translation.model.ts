@@ -32,10 +32,13 @@ export interface TranslationModel {
     title: string;
     demoLabel: string;
     codeLabel: string;
+    privateLabel: string;
     items: {
       name: string;
       desc: string;
       tech: string[];
+      link: string;
+      github: string | null;
     }[];
   };
   stack: {
